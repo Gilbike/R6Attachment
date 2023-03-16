@@ -61,7 +61,7 @@ export const WeaponData: WeaponDataTable = {
     { name: "Commando 9", attachment: "Muzzle Brake" },
     { name: "UZK50GI", attachment: "Muzzle Brake" },
     { name: "SMG11", attachment: "Flash Hider" },
-    { name: "Bearing-9", attachment: "Flash Hider" },
+    { name: "Bearing9", attachment: "Flash Hider" },
     { name: "SPSMG9", attachment: "Compensator" },
     { name: "C75", attachment: "Extended Barrel / Suppressor" },
   ],
@@ -151,7 +151,7 @@ export const AttackerOperatorData: OperatorDataTemplate[] = [
   },
   {
     name: "Glaz",
-    weapons: ["Bearing-9"],
+    weapons: ["Bearing9"],
   },
   {
     name: "Fuze",
@@ -175,7 +175,7 @@ export const AttackerOperatorData: OperatorDataTemplate[] = [
   },
   {
     name: "Hibana",
-    weapons: ["Type89", "Bearing-9"],
+    weapons: ["Type89", "Bearing9"],
   },
   {
     name: "Jackal",
@@ -261,7 +261,7 @@ export const AttackerOperatorData: OperatorDataTemplate[] = [
 export const DefenderOperatorData: OperatorDataTemplate[] = [
   {
     name: "Smoke",
-    weapons: ["MP5K", "SMG11"],
+    weapons: ["FMG9", "SMG11"],
   },
   {
     name: "Mute",
@@ -289,7 +289,7 @@ export const DefenderOperatorData: OperatorDataTemplate[] = [
   },
   {
     name: "Tachanka",
-    weapons: ["9x19SVN"],
+    weapons: ["9x19SVN", "Bearing9"],
   },
   {
     name: "Jager",
@@ -313,7 +313,7 @@ export const DefenderOperatorData: OperatorDataTemplate[] = [
   },
   {
     name: "Echo",
-    weapons: ["Bearing-9"],
+    weapons: ["Bearing9"],
   },
   {
     name: "Mira",
@@ -377,7 +377,7 @@ export const DefenderOperatorData: OperatorDataTemplate[] = [
   },
   {
     name: "Thunderbird",
-    weapons: ["SPEAR .308", "Bearing-9"],
+    weapons: ["SPEAR .308", "Bearing9"],
   },
   {
     name: "Thorn",

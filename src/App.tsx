@@ -43,7 +43,7 @@ const App = () => {
               Toggle Theme
             </Button>
             <Text>
-              Updated on: 2023. 03. 16 {"("}Operation Commanding Force{")"}
+              Updated on: 2023. 05. 07 {"("}Operation Commanding Force{")"}
             </Text>
           </VStack>
         </Center>
